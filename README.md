@@ -30,12 +30,10 @@ First, I created a web-scraping code in Jupyter Notebook [Mission_to_Mars_Challe
 * Images of Mars hemispheres and titles from https://marshemispheres.com/.
 
 ## Deliverable 2
-Next, I converted the Jupyter Notebook file into a Python file, [Mission_to_Mars_Challenge.py](https://github.com/Aigerim-Zh/Mission-to-Mars/blob/main/Challenge/Mission_to_Mars_Challenge.py). 
-
-The final application code, [app.py](https://github.com/Aigerim-Zh/Mission-to-Mars/blob/main/Challenge/app.py)
+Next, I converted the Jupyter Notebook file into a Python file, [Mission_to_Mars_Challenge.py](https://github.com/Aigerim-Zh/Mission-to-Mars/blob/main/Challenge/Mission_to_Mars_Challenge.py) and prepared the final application code, [app.py](https://github.com/Aigerim-Zh/Mission-to-Mars/blob/main/Challenge/app.py), which
 - connects to the Mongo database. 
 - has a route that reproduces the following template: [index.html](https://github.com/Aigerim-Zh/Mission-to-Mars/blob/main/Challenge/templates/index.html).
-- has a scraping route using the [scraping.py]() file, which modifies the scraping process from [Mission_to_Mars_Challenge.py](https://github.com/Aigerim-Zh/Mission-to-Mars/blob/main/Challenge/Mission_to_Mars_Challenge.py) to functions for each scrape. 
+- has a scraping route using the [scraping.py]() file, which modifies the scraping process from [Mission_to_Mars_Challenge.py](https://github.com/Aigerim-Zh/Mission-to-Mars/blob/main/Challenge/Mission_to_Mars_Challenge.py) with functions for each scrape. 
 
 After running the web application, this is the initial web page view:
 
